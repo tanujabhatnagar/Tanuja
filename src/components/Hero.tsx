@@ -9,15 +9,15 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
-              alt="John Doe"
+              src="/IMG_5756.jpg"
+              alt="Tanujs Bhatnagar"
               className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white dark:border-gray-700 shadow-lg"
             />
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-              John Doe
+             Tanuja Bhatnagar
             </h1>
             <h2 className="text-xl sm:text-2xl lg:text-3xl text-blue-600 dark:text-blue-400 mb-6">
-              Senior Backend Developer
+              Backend Developer
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed">
               Passionate backend developer with 4+ years of experience in Java and software development. 

@@ -5,10 +5,10 @@ import { Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Backend Developer",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
+      title: "Senior Software Engineer",
+      company: "Newgen Software",
+      location: "Noida, India",
+      period: "Jan 2022 - Sep 2025",
       description: [
         "Led development of microservices architecture serving 1M+ users",
         "Optimized database queries reducing response time by 40%",
@@ -17,27 +17,25 @@ const Experience = () => {
       ]
     },
     {
-      title: "Backend Developer",
-      company: "Digital Innovations Inc",
-      location: "New York, NY",
-      period: "2021 - 2022",
+      title: "Junior Developer",
+      company: "Cargoflash Infotech",
+      location: "Gurgaon, India",
+      period: "Jan 2021 - Dec 2021",
       description: [
-        "Developed RESTful APIs using Spring Boot and Java",
+        "Developed RESTful APIs for Air Cargo Tariff Accounts",
         "Integrated third-party payment systems and APIs",
-        "Collaborated with frontend team to deliver full-stack solutions",
-        "Maintained 99.9% uptime for critical business applications"
+        "Created UI Designs and Developed UI using Angular",
+        "Created BRDs and SRS documents for System"
       ]
     },
     {
-      title: "Java Developer",
-      company: "StartupXYZ",
-      location: "Austin, TX",
-      period: "2020 - 2021",
+      title: "Mobile Application Developer",
+      company: "Techknowten",
+      location: "Noida, India",
+      period: "Sep 2020 - Dec 2020",
       description: [
-        "Built scalable backend systems from ground up",
-        "Implemented authentication and authorization systems",
-        "Worked with MySQL and MongoDB databases",
-        "Participated in agile development processes"
+        "Built Makeup app using Flutter",
+        "Recreated their already existing app using flutter"
       ]
     }
   ];

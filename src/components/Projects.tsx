@@ -5,9 +5,9 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Microservices Platform",
-      description: "Built a scalable microservices architecture for an e-commerce platform handling 10,000+ daily transactions. Implemented services for user management, product catalog, order processing, and payment integration.",
-      technologies: ["Java", "Spring Boot", "MySQL", "Redis", "Docker", "Kubernetes"],
+      title: "Quiz Application - Microservices",
+      description: "Built a scalable microservices architecture that lets a user creates quizes of different categories and checks score. Implemented services for question management, quiz score, and user-management",
+      technologies: ["Java", "Spring Boot", "PostgreSQL"],
       github: "https://github.com",
       demo: "https://demo.com"
     },
