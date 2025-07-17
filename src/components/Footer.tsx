@@ -39,9 +39,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 pt-8 mt-8 text-center">
-          <p className="text-gray-400 flex items-center justify-center">
-            Made with <Heart className="w-4 h-4 mx-2 text-red-500 fill-current" /> by John Doe
-          </p>
+          
           <p className="text-gray-500 text-sm mt-2">
             © {new Date().getFullYear()} All rights reserved.
           </p>
