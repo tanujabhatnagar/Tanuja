@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
             <img
-              src="../src/IMG_5756.jpg"
+              src="/IMG_5756.jpg"
               alt="Tanuja Bhatnagar"
               className="w-32 h-32 rounded-full mx-auto border-4 border-white dark:border-gray-700 shadow-lg"
             />
@@ -28,7 +28,7 @@ const Hero = () => {
 
           <div className="flex justify-center space-x-6 mb-8">
             <a
-              href="https://github.com"
+              href="https://github.com/tanujabhatnagar/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
@@ -36,7 +36,7 @@ const Hero = () => {
               <Github className="w-6 h-6 text-gray-700 dark:text-gray-300" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/tanujabhatnagar/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
@@ -44,7 +44,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6 text-blue-600" />
             </a>
             <a
-              href="mailto:john@example.com"
+              href="mailto:tanujabhatnagar09@gmail.com"
               className="p-3 bg-white dark:bg-gray-800 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
             >
               <Mail className="w-6 h-6 text-red-500" />
@@ -59,7 +59,7 @@ const Hero = () => {
               Get In Touch
             </button>
             <a
-              href="/resume.pdf"
+              href="/tanuja.bhatnagar.pdf"
               target="_blank"
               className="px-8 py-3 border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white rounded-lg font-medium transition-colors duration-200"
             >
