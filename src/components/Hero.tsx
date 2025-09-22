@@ -9,9 +9,9 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
             <img
-              src="../IMG_5756.jpg"
-              alt="Tanujs Bhatnagar"
-              className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white dark:border-gray-700 shadow-lg"
+              src="../src/IMG_5756.jpg"
+              alt="Tanuja Bhatnagar"
+              className="w-32 h-32 rounded-full mx-auto border-4 border-white dark:border-gray-700 shadow-lg"
             />
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4">
              Tanuja Bhatnagar
