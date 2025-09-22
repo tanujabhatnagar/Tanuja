@@ -4,7 +4,7 @@ import { Calendar, Clock, ExternalLink } from 'lucide-react';
 
 const Blogs = () => {
   const blogPosts = [
-    {
+   /* {
       title: "Building Scalable Microservices with Spring Boot",
       excerpt: "Learn how to design and implement microservices architecture using Spring Boot, including service discovery, load balancing, and fault tolerance patterns.",
       date: "2024-01-15",
@@ -21,24 +21,24 @@ const Blogs = () => {
       tags: ["Java", "Database", "Performance"],
       link: "https://medium.com/@johndoe/database-optimization",
       image: "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=400&h=250&fit=crop"
+    },*/
+    {
+      title: "Introduction to Cloud Computing: A Comprehensive Guide",
+      excerpt: "A comprehensive overview of cloud computing, its workings, architecture, and various applications.",
+      date: "2024-04-24",
+      readTime: "5 min read",
+      tags: ["Cloud", "Cloud architecture", "IaaS", "PaaS", "SaaS"],
+      link: "https://tanujabhatnagar.hashnode.dev/mastering-cloud-computing-a-comprehensive-guide",
+      image: "https://www.researchgate.net/publication/327310816/figure/fig1/AS:665312093536256@1535634172819/Conceptual-diagram-of-cloud-computing.png"
     },
     {
-      title: "JWT Authentication and Authorization in Spring Security",
-      excerpt: "A comprehensive guide to implementing secure authentication and authorization using JWT tokens in Spring Boot applications with best practices.",
-      date: "2023-11-22",
-      readTime: "10 min read",
-      tags: ["Security", "JWT", "Spring Security"],
-      link: "https://medium.com/@johndoe/jwt-spring-security",
-      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop"
-    },
-    {
-      title: "Docker and Kubernetes for Java Developers",
-      excerpt: "Step-by-step guide to containerizing Java applications with Docker and deploying them to Kubernetes clusters for production-ready deployments.",
-      date: "2023-10-05",
-      readTime: "12 min read",
-      tags: ["Docker", "Kubernetes", "DevOps"],
-      link: "https://medium.com/@johndoe/docker-kubernetes-java",
-      image: "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=400&h=250&fit=crop"
+      title: "Tutorial : How to get Recent Blogs using Hashnode API 2024 Updated",
+      excerpt: "how you can fetch all the blog posts of a user using Hashnode API version 2.0.",
+      date: "2024-05-25",
+      readTime: "3 min read",
+      tags: ["API", "Tutorial", "Hashnode"],
+      link: "https://tanujabhatnagar.hashnode.dev/tutorial-how-to-get-recent-blogs-using-hashnode-api-2024-updated",
+      image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1716628504736/555eb66a-ba69-43b9-a6da-8e04f0b5db57.avif?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp"
     }
   ];
 
