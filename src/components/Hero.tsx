@@ -7,7 +7,7 @@ const Hero = () => {
     <section id="about" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
-          <div className="mb-8">
+          <div className="mb-[1rem]">
             <img
               src="/IMG_5756.jpg"
               alt="Tanuja Bhatnagar"
