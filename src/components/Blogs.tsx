@@ -114,7 +114,7 @@ const Blogs = () => {
 
         <div className="text-center mt-12">
           <a
-            href="https://medium.com/@johndoe"
+            href="https://tanujabhatnagar.hashnode.dev/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 font-medium"
