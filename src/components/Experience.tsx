@@ -20,12 +20,22 @@ const Experience = () => {
       title: "Junior Developer",
       company: "Cargoflash Infotech",
       location: "Gurgaon, India",
-      period: "Jan 2021 - Dec 2021",
+      period: "Apr 2021 - Dec 2021",
       description: [
         "Developed RESTful APIs for Air Cargo Tariff Accounts",
-        "Integrated third-party payment systems and APIs",
         "Created UI Designs and Developed UI using Angular",
         "Created BRDs and SRS documents for System"
+      ]
+    },
+     {
+      title: "Trainee",
+      company: "Cargoflash Infotech",
+      location: "Gurgaon, India",
+      period: "Apr 2021 - Dec 2021",
+      description: [
+        "Created BRDs and SRS documents for the recruitment system",
+        "Created UI Designs for HR Recruitment System using Figma",
+        "Designed system architecture for OTT application"
       ]
     },
     {
@@ -35,7 +45,7 @@ const Experience = () => {
       period: "Sep 2020 - Dec 2020",
       description: [
         "Built Makeup app using Flutter",
-        "Recreated their already existing app using flutter"
+        "Recreated their already existing mobile app for Real Estate using Flutter."
       ]
     }
   ];
