@@ -4,39 +4,57 @@ import React from 'react';
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Programming Languages",
+      title: "Languages & Frameworks",
       skills: [
-        { name: "Java", level: 95 },
-        { name: "Kotlin", level: 60 },
-        { name: "JavaScript", level: 75 },
-        { name: "C", level: 90 }
-      ]
-    },
-    {
-      title: "Frameworks & Libraries",
-      skills: [
+        { name: "Java (8/17/21)", level: 95 },
         { name: "Spring Boot", level: 95 },
-        { name: "Hibernate", level: 85 },
-        { name: "Maven/Gradle", level: 80 },
-        { name: "JUnit", level: 90 }
+        { name: "Spring Security", level: 90 },
+        { name: "Hibernate", level: 85 }
       ]
     },
     {
-      title: "Databases",
+      title: "Testing & Build Tools",
       skills: [
-        { name: "MS SQL", level: 100 },
+        { name: "JUnit", level: 90 },
+        { name: "Mockito", level: 85 },
+        { name: "Maven/Gradle", level: 90 },
+        { name: "TDD Methodology", level: 90 }
+      ]
+    },
+    {
+      title: "Databases & Search",
+      skills: [
         { name: "PostgreSQL", level: 95 },
-        { name: "MongoDB", level: 65 },
-        { name: "Oracle", level: 70 }
+        { name: "MongoDB", level: 85 },
+        { name: "ElasticSearch", level: 80 },
+        { name: "Oracle SQL", level: 85 }
       ]
     },
     {
-      title: "Tools & Technologies",
+      title: "DevOps & Logging",
       skills: [
+        { name: "Kibana", level: 85 },
+        { name: "Jenkins", level: 90 },
         { name: "Docker", level: 85 },
-        { name: "Kubernetes", level: 70 },
-        { name: "AWS", level: 80 },
-        { name: "Git", level: 95 }
+        { name: "OpenShift Redhat", level: 75 }
+      ]
+    },
+    {
+      title: "Design & Documentation",
+      skills: [
+        { name: "HLD/LLD Design Patterns", level: 90 },
+        { name: "Confluence", level: 85 },
+        { name: "Postman", level: 90 },
+        { name: "Swagger", level: 88 }
+      ]
+    },
+    {
+      title: "Tools & Version Control",
+      skills: [
+        { name: "Bitbucket", level: 90 },
+        { name: "Git", level: 95 },
+        { name: "IntelliJ IDEA", level: 95 },
+        { name: "GitHub Copilot", level: 85 }
       ]
     }
   ];

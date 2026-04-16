@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <div className="mb-[1rem]">
             <img
-              src="/IMG_5756.jpg"
+              src="/IMG_7241.png"
               alt="Tanuja Bhatnagar"
               className="w-32 h-32 rounded-full mx-auto border-4 border-white dark:border-gray-700 shadow-lg"
             />
@@ -17,12 +17,10 @@ const Hero = () => {
              Tanuja Bhatnagar
             </h1>
             <h2 className="text-xl sm:text-2xl lg:text-3xl text-blue-600 dark:text-blue-400 mb-6">
-              Backend Developer
+              Senior Backend Developer
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed">
-              Passionate backend developer with 4+ years of experience in Java and software development. 
-              I specialize in building scalable, efficient, and maintainable server-side applications 
-              that power modern web and mobile experiences.
+              Senior Software Engineer with 5 years of experience specializing in high-performance backend systems. Expert in Java and Spring Boot microservices, with a strong focus on the full SDLC—from creating HLD/LLD to API integration and deployment. Proven track record in managing distributed databases and leveraging modern tools for scalable system design.
             </p>
           </div>
 

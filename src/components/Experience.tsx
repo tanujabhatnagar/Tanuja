@@ -5,47 +5,39 @@ import { Calendar, MapPin } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      title: "Senior Backend Developer",
+      company: "Airtel",
+      location: "Noida, India",
+      period: "Oct 2025 - Present",
+      description: [
+        "Developed high-performance microservices for Partner Portal and Airtel Work applications",
+        "Architecting scalable solutions by creating High-Level (HLD) and Low-Level Design (LLD) documents",
+        "Designing and integrating robust RESTful APIs with rigorous documentation using Swagger",
+        "Utilizing Kibana to monitor application logs and perform root cause analysis (RCA) for production issues",
+        "Implementing efficient data storage strategies using PostgreSQL and MongoDB"
+      ]
+    },
+    {
       title: "Senior Software Engineer",
       company: "Newgen Software",
       location: "Noida, India",
       period: "Jan 2022 - Sep 2025",
       description: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Optimized database queries reducing response time by 40%",
-        "Mentored junior developers and conducted code reviews",
-        "Implemented CI/CD pipelines using Jenkins and Docker"
+        "Orchestrated migration from monolithic architecture to Microservices",
+        "Led upgrade of legacy core systems from Java 7 to Java 11, reducing technical debt",
+        "Refactored complex SQL queries and stored procedures achieving 12% improvement in database performance",
+        "Spearheaded adoption of Test-Driven Development (TDD) using JUnit with comprehensive test suites"
       ]
     },
     {
-      title: "Junior Developer",
-      company: "Cargoflash Infotech",
-      location: "Gurgaon, India",
-      period: "Apr 2021 - Dec 2021",
-      description: [
-        "Developed RESTful APIs for Air Cargo Tariff Accounts",
-        "Created UI Designs and Developed UI using Angular",
-        "Created BRDs and SRS documents for System"
-      ]
-    },
-     {
-      title: "Trainee",
-      company: "Cargoflash Infotech",
-      location: "Gurgaon, India",
-      period: "Apr 2021 - Dec 2021",
-      description: [
-        "Created BRDs and SRS documents for the recruitment system",
-        "Created UI Designs for HR Recruitment System using Figma",
-        "Designed system architecture for OTT application"
-      ]
-    },
-    {
-      title: "Mobile Application Developer",
-      company: "Techknowten",
+      title: "Junior Software Developer",
+      company: "CargoFlash Infotech",
       location: "Noida, India",
-      period: "Sep 2020 - Dec 2020",
+      period: "Jan 2021 - Dec 2021",
       description: [
-        "Built Makeup app using Flutter",
-        "Recreated their already existing mobile app for Real Estate using Flutter."
+        "Enhanced backend modules for cargo and logistics platforms using Java and SQL",
+        "Collaborated with QA teams to implement code review standards, reducing post-release defects by 25%",
+        "Promoted from Intern to Full-time Developer within 3 months after successful delivery of production-ready Tariff Discount module"
       ]
     }
   ];
